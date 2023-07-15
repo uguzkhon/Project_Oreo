@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Oreo-mrkt</title>
+</head>
+<body>
+<h1>Главная</h1>
+
+<form action="search" method="post">
+    {% csrf_token %}
+    <input type = "text"name="search_product">
+    <button> Поиск </button>
+</form>
+
+
+
+<a href="/about-us">О сайте</a>
+<br></br>
+<a href="/contacts">Контакты</a>
+</body>
+</html>
